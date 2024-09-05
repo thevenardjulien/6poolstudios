@@ -1,5 +1,11 @@
 {
     "HomePage": {
-      "welcome": "Bienvenue sur 6Pools Studios!"
+      "welcome": "Bienvenue sur",
+      "brand": "6Pool Studios",
+      "catchphrase": "Construisons quelque chose de grand!"
+    },
+    "LanguageChanger": {
+      "en": "Anglais",
+      "fr": "Français"
     }
   }
