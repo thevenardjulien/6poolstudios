@@ -6,7 +6,7 @@ export default function Welcome({ onClick }: { onClick?: () => void }) {
 
   return (
     <div className="flex flex-col gap-4 items-center justify-center">
-    <h1 className="flex items-center gap-2 text-center text-5xl font-bold bg-indigo-800 text-white p-6 rounded hover:cursor-crosshair hover:outline hover:outline-2 hover:outline-offset-2 hover:outline-indigo-800" onClick={onClick}>
+    <h1 className="flex items-center gap-2 text-center text-5xl font-bold bg-main text-white p-6 rounded hover:cursor-crosshair hover:outline hover:outline-2 hover:outline-offset-2 hover:outline-indigo-800" onClick={onClick}>
           {t("welcome")}
           <br />
           {t("brand")}

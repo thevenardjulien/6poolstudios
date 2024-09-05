@@ -1,11 +1,18 @@
 {
+    "Header": {
+      "about": "About",
+      "contact": "Contact"
+      },
+    "Footer": {
+      "copyright": "© 2024 All rights reserved"
+      },
     "HomePage": {
       "welcome": "Welcome to",
       "brand": "6Pool Studios",
       "catchphrase": "Let's Build Something Great!"
     },
     "LanguageChanger": {
-      "en": "English",
-      "fr": "French"
+      "en": "EN",
+      "fr": "FR"
     }
   }

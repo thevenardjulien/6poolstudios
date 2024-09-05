@@ -23,7 +23,7 @@ export default function LanguageChanger() {
   };
 
   return (
-    <select value={locale} onChange={handleChange}>
+    <select value={locale} onChange={handleChange} className="bg-main text-white hover:cursor-pointer">
       {LOCALES.map((loc) => (
         <option key={loc} value={loc}>
           {t(loc)}
