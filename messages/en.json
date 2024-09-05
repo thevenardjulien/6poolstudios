@@ -3,5 +3,9 @@
       "welcome": "Welcome to",
       "brand": "6Pool Studios",
       "catchphrase": "Let's Build Something Great!"
+    },
+    "LanguageChanger": {
+      "en": "English",
+      "fr": "French"
     }
   }
