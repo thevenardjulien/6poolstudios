@@ -1,5 +1,3 @@
-'use client'
-
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import hero from "../../assets/images/hero.webp";
@@ -10,7 +8,7 @@ export default function Hero() {
     const t = useTranslations("Hero");
 
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center w-full min-h-[80vh] px-12">
+    <div className="flex flex-col lg:flex-row justify-center items-center w-full min-h-[85vh] px-12">
         <div className="flex flex-col gap-6 justify-center items-start lg:max-w-[750px] lg:relative lg:left-[30px] z-10">
             <h1 className="flex flex-col gap-2 text-5xl font-bold w-full">
                 <div className="text-balance">
