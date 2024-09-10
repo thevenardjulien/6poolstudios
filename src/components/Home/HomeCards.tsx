@@ -1,14 +1,18 @@
+'use client'
+
 import { useTranslations } from "next-intl";
 import Card from "../UI/Card";
+import { useRouter } from "next/navigation";
 
 export default function HomeCards() {
   const t = useTranslations();
   const cardCount = 6;
+  const router = useRouter();
 
   return (
     <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
       {[...Array(cardCount)].map((_, index) => (
-        <Card key={`card-${index + 1}`}>
+        <Card key={`card-${index + 1}`} onClick={() => router.push(`/get-started`)}>
           <div className="flex flex-col gap-6 group">
             <div className="bg-main text-white py-4 px-6 rounded max-w-full">
               <h3 className="text-xl font-bold truncate">

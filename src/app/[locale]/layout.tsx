@@ -5,6 +5,7 @@ import {getMessages} from 'next-intl/server';
 import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
 import "./globals.css";
+import BackToTop from "@/components/BackToTop";
 
 export const Questrial = localFont({
   src: "../../assets/fonts/Questrial-Regular.ttf",
@@ -47,6 +48,7 @@ export default async function LocaleLayout({
             {children}
           </main>
           <Footer />
+          <BackToTop/>
         </NextIntlClientProvider>
       </body>
     </html>

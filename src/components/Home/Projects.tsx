@@ -14,7 +14,7 @@ export default function Projects() {
 
 
   return (
-    <div className="flex flex-col gap-12 items-center bg-lightBackground py-20 px-12">
+    <div className="flex flex-col gap-12 items-center py-20 px-12">
         <h2 className="text-5xl font-bold text-balance text-center">
           {t("title")}{" "}
           <span className="text-main">{t("keywords1")}</span>

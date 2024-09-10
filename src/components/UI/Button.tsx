@@ -1,8 +1,8 @@
 import { twMerge } from "tailwind-merge";
 
 export default function Button(
-  { children, bgColor, textColor, border, borderColor, hoverBgColor, hoverTextColor, hoverBorder } : 
-  { children: React.ReactNode, bgColor?: string, textColor?: string, border?: string, borderColor?: string; hoverBgColor?: string, hoverTextColor?: string, hoverBorder?: string }) {
+  { children, bgColor, textColor, border, borderColor, hoverBgColor, hoverTextColor, hoverBorder, onClick } : 
+  { children: React.ReactNode, bgColor?: string, textColor?: string, border?: string, borderColor?: string; hoverBgColor?: string, hoverTextColor?: string, hoverBorder?: string, onClick?: () => void }) {
   return (
     <button
       className={twMerge(
@@ -18,6 +18,7 @@ export default function Button(
         "hover:scale-[105%]",
         "ease-in-out duration-200"
       )}
+      onClick={onClick}
     >
       {children}
     </button>
