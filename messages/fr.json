@@ -1,15 +1,41 @@
 {
-    "Header": {
+    "MainNav": {
+      "home": "Accueil",
       "about": "À propos",
       "contact": "Contact"
       },
     "Footer": {
       "copyright": "© 2024 Tous droits réservés"
       },
-    "HomePage": {
-      "welcome": "Bienvenue sur",
-      "brand": "6Pool Studios",
-      "catchphrase": "Construisons quelque chose de grand!"
+    "Hero": {
+      "catchphrase1": "Transformez votre",
+      "keywords1": "présence",
+      "keywords2": "en ligne",
+      "catchphrase2": "avec un site web ",
+      "catchphrase3": "qui",
+      "keywords3": "vous ressemble.",
+      "description": "Du design à l'hébergement en passant par la conception, nous sommes là pour vous aider à créer votre site web.",
+      "cta1": "Commencer",
+      "cta2": "Découvrir les offres"
+    },
+    "Services": {
+      "title": "Votre site internet",
+      "keywords1": "clé en main",
+      "keywords2": ""
+    },
+    "HomeCards": {
+      "title1": "Responsive design",
+      "description1": "Nos sites web sont conçus pour être entièrement responsives, garantissant une expérience utilisateur optimale sur tous les appareils, qu'il s'agisse de mobiles, tablettes ou ordinateurs.",
+      "title2": "SEO Optimisé",
+      "description2": "Nous intégrons des techniques de référencement naturel avancées dans chaque projet, améliorant ainsi la visibilité de votre site sur les moteurs de recherche et attirant un trafic qualifié.",
+      "title3": "Performance et vitesse",
+      "description3": "Nous optimisons la performance et la vitesse de chargement de votre site, assurant une navigation fluide qui réduit le taux de rebond et maximise l'engagement des utilisateurs.",
+      "title4": "Experience utilisateur",
+      "description4": "Nous concevons des interfaces intuitives et engageantes, centrées sur l'utilisateur, pour améliorer la satisfaction et la fidélité de vos visiteurs.",
+      "title5": "Hébergement offert",
+      "description5": "Nous proposons un hébergement gratuit pendant une période déterminée, facilitant ainsi le lancement de votre site sans frais supplémentaires.",
+      "title6": "Suivi après livraison",
+      "description6": "Nous assurons un suivi après la livraison pour garantir le bon fonctionnement de votre site et effectuer des ajustements si nécessaire, vous offrant ainsi une tranquillité d'esprit."
     },
     "LanguageChanger": {
       "en": "EN",

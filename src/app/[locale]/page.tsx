@@ -1,9 +1,12 @@
-import Welcome from "@/components/Welcome";
+import Hero from "@/components/Home/Hero";
+import Services from "@/components/Home/Services";
+
 
 export default function Home() {
   return (
-      <div className="flex flex-col gap-2 row-start-2 items-center justify-center">
-        <Welcome />
+      <div className="w-full">
+        <Hero />
+        <Services />
       </div>
   );
 }

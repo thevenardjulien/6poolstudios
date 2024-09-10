@@ -2,9 +2,15 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
+import Header from "@/components/Layout/Header";
+import Footer from "@/components/Layout/Footer";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+
+export const Questrial = localFont({
+  src: "../../assets/fonts/Questrial-Regular.ttf",
+  variable: "--font-questrial",
+  weight: "100 900",
+});
 
 const geistSans = localFont({
   src: "../../assets/fonts/GeistVF.woff",
@@ -22,6 +28,7 @@ export const metadata: Metadata = {
   description: "Let's Build Something Great!",
 };
 
+
 export default async function LocaleLayout({
   children,
   params: {locale}
@@ -33,10 +40,10 @@ export default async function LocaleLayout({
  
   return (
     <html lang={locale} className="h-full">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen font-[family-name:var(--font-geist-sans)]`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${Questrial.variable} antialiased flex flex-col items-center min-h-screen font-[family-name:var(--font-geist-sans)]`}>
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <main className="flex-grow flex flex-col items-center justify-center py-10">
+          <main className="w-full flex-grow flex flex-col items-center justify-center">
             {children}
           </main>
           <Footer />

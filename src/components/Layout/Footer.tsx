@@ -5,9 +5,9 @@ export default function Footer() {
     const t = useTranslations("Footer");
 
   return (
-    <footer className="flex justify-center gap-4 p-4 bg-main text-white w-full">
+    <footer className="flex justify-center gap-4 p-4 w-full border-t-[1px] border-border">
       <div className="flex  gap-4">
-        <p className="text-xl">{t("copyright")}</p>
+        <p>{t("copyright")}</p>
       </div>
     </footer>
   );

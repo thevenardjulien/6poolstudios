@@ -10,8 +10,11 @@ const config: Config = {
     extend: {
       colors: {
         background: "var(--background)",
+        lightBackground: "var(--light-background)",
         foreground: "var(--foreground)",
         main: "var(--main)",
+        mainHover: "var(--main-hover)",
+        border: "var(--border)",
       },
     },
   },
