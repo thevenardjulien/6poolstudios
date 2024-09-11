@@ -15,10 +15,10 @@ export default function Header() {
   useEffect(() => { setIsDesktop(width >= 1024); }, [width]);
 
   return (
-      <header className="flex items-center justify-between gap-4 py-4 px-12 w-full border-b-[1px] border-border">
+      <header className="grid grid-cols-3 items-center justify-between gap-4 py-4 px-12 w-full border-b-[1px] border-border">
         <div className="flex items-center justify-start gap-4 text-lg width-1/3">
           <span>
-            <Link href="/" className="text-2xl font-bold flex-1 whitespace-nowrap">6Pool Studios</Link>
+            <Link href="/" className="text-2xl font-bold flex-1">{isDesktop ? "6Pool Studios" : "6PS"}</Link>
           </span>
         </div>
         <div className={`flex items-center justify-center gap-4 text-lg width-1/3 bg-white z-20 rounded py-4 px-8` }>

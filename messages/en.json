@@ -23,12 +23,6 @@
       "keywords1": "ready to go",
       "keywords2": "website"
     },
-    "Projects": {
-      "title": "Each project is",
-      "keywords1": "unique",
-      "title2": "and",
-      "keywords2": "custom-designed"
-    },
     "HomeCards": {
       "title1": "Responsive Design",
       "description1": "Our websites are designed to be fully responsive, ensuring an optimal user experience across all devices, whether on mobile phones, tablets, or computers.",
@@ -42,6 +36,25 @@
       "description5": "We offer free hosting for a specified period, thus facilitating the launch of your site without additional costs.",
       "title6": "Post-Delivery Follow-up",
       "description6": "We provide follow-up after delivery to ensure your site functions properly and make adjustments if necessary, offering you peace of mind."
+    },
+    "Projects": {
+      "title": "Each project is",
+      "keywords1": "unique",
+      "title2": "and",
+      "keywords2": "custom-designed"
+    },
+    "Contact": {
+      "title": "Feel free to",
+      "keywords1": "contact us",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit",
+      "success": "Thank you for your message!",
+      "error": "An error occurred. Please try again later.",
+      "error-name": "String must contain at least 3 character(s)",
+      "error-email": "Invalid email",
+      "error-message": "String must contain at least 10 character(s)"
     },
     "LanguageChanger": {
       "en": "EN",

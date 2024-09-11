@@ -44,7 +44,7 @@ export default async function LocaleLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} ${Questrial.variable} antialiased flex flex-col items-center min-h-screen font-[family-name:var(--font-geist-sans)]`}>
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <main className="w-full flex-grow flex flex-col items-center justify-center">
+          <main className="w-full flex-grow flex flex-col items-center justify-center py-12">
             {children}
           </main>
           <Footer />

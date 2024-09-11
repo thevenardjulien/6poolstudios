@@ -2,7 +2,7 @@
 
 import useWindowScroll from "@/hooks/useWindowScroll";
 import { useEffect, useState } from "react";
-import { FaRegArrowAltCircleUp } from "react-icons/fa";
+import { FaArrowUp } from "react-icons/fa";
 
 export default function BackToTop() {
 
@@ -19,8 +19,8 @@ export default function BackToTop() {
 
   return (
     displayBackToTop ?
-        <div className="fixed bottom-0 right-0 z-50 m-4 flex items-center justify-center gap-2 rounded-full bg-white p-2 shadow-md hover:shadow-lg hover:bg-main hover:text-white hover:cursor-pointer text-3xl" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-        <FaRegArrowAltCircleUp />
+        <div className="fixed bottom-[20px] right-[15px] z-50 text-2xl bg-white text-main p-2 shadow-md border-[1px] border-border hover:cursor-pointer hover:bg-main hover:text-white" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        <FaArrowUp />
     </div> 
     : null 
   );

@@ -23,12 +23,6 @@
       "keywords1": "clé en main",
       "keywords2": ""
     },
-    "Projects": {
-      "title": "Chaque projet est",
-      "keywords1": "unique",
-      "title2": "et fait",
-      "keywords2": "sur-mesure"
-    },
     "HomeCards": {
       "title1": "Responsive design",
       "description1": "Nos sites web sont conçus pour être entièrement responsives, garantissant une expérience utilisateur optimale sur tous les appareils, qu'il s'agisse de mobiles, tablettes ou ordinateurs.",
@@ -42,6 +36,25 @@
       "description5": "Nous proposons un hébergement gratuit pendant une période déterminée, facilitant ainsi le lancement de votre site sans frais supplémentaires.",
       "title6": "Suivi après livraison",
       "description6": "Nous assurons un suivi après la livraison pour garantir le bon fonctionnement de votre site et effectuer des ajustements si nécessaire, vous offrant ainsi une tranquillité d'esprit."
+    },
+    "Projects": {
+      "title": "Chaque projet est",
+      "keywords1": "unique",
+      "title2": "et fait",
+      "keywords2": "sur-mesure"
+    },
+    "Contact": {
+      "title": "N'hésitez pas à",
+      "keywords1": "nous contacter",
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Soumettre",
+      "success": "Merci pour votre message!",
+      "error": "Une erreur est survenue. Veuillez réessayer plus tard.",
+      "error-name": "La chaîne doit contenir au moins 3 caractères",
+      "error-email": "Email invalide",
+      "error-message": "La chaîne doit contenir au moins 10 caractères"
     },
     "LanguageChanger": {
       "en": "EN",
