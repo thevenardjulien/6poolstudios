@@ -8,7 +8,7 @@
   --foreground: #171717;
   --main: hsl(244, 54%, 51%);
   --main-hover: hsl(244, 54%, 41%);
-  --border: #D3D3D3;
+  --border: #d3d3d3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,7 +18,9 @@
   }
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -28,7 +30,12 @@ body {
   font-family: var(--font-geist-sans);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heavitas);
 }
 
@@ -47,7 +54,7 @@ a {
 }
 
 a::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 100%;

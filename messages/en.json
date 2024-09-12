@@ -1,63 +1,90 @@
 {
-    "MainNav": {
-      "home": "Home",
-      "about": "About",
-      "contact": "Contact"
-      },
-    "Footer": {
-      "copyright": "© 2024 All rights reserved"
-      },
-    "Hero": {
-      "catchphrase1": "Transform your",
-      "keywords1": "online presence",
-      "keywords2": "",
-      "catchphrase2": "with a website that reflects",
-      "catchphrase3": "",
-      "keywords3": "who you are.",
-      "description": "From design to hosting, including development, we are here to help you create your website.",
-      "cta1": "Get Started",
-      "cta2": "Discover Offers"
-    },
-    "Services": {
-      "title": "Your",
-      "keywords1": "ready to go",
-      "keywords2": "website"
-    },
-    "HomeCards": {
-      "title1": "Responsive Design",
-      "description1": "Our websites are designed to be fully responsive, ensuring an optimal user experience across all devices, whether on mobile phones, tablets, or computers.",
-      "title2": "SEO Optimized",
-      "description2": "We incorporate advanced natural referencing techniques into every project, thus improving your site's visibility on search engines and attracting qualified traffic.",
-      "title3": "Performance and Speed",
-      "description3": "We optimize your site's performance and loading speed, ensuring smooth navigation that reduces bounce rates and maximizes user engagement.",
-      "title4": "User Experience",
-      "description4": "We design intuitive and engaging interfaces, centered on the user, to improve the satisfaction and loyalty of your visitors.",
-      "title5": "Free Hosting",
-      "description5": "We offer free hosting for a specified period, thus facilitating the launch of your site without additional costs.",
-      "title6": "Post-Delivery Follow-up",
-      "description6": "We provide follow-up after delivery to ensure your site functions properly and make adjustments if necessary, offering you peace of mind."
-    },
-    "Projects": {
-      "title": "Each project is",
-      "keywords1": "unique",
-      "title2": "and",
-      "keywords2": "custom-designed"
-    },
-    "Contact": {
-      "title": "Feel free to",
-      "keywords1": "contact us",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Submit",
-      "success": "Thank you for your message!",
-      "error": "An error occurred. Please try again later.",
-      "error-name": "String must contain at least 3 character(s)",
-      "error-email": "Invalid email",
-      "error-message": "String must contain at least 10 character(s)"
-    },
-    "LanguageChanger": {
-      "en": "EN",
-      "fr": "FR"
-    }
+  "MainNav": {
+    "about": "About",
+    "get-started": "Get Started",
+    "offers": "Offers",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "copyright": "© 2024 All rights reserved"
+  },
+  "Hero": {
+    "catchphrase1": "Transform your",
+    "keywords1": "online presence",
+    "keywords2": "",
+    "catchphrase2": "with a website that reflects",
+    "catchphrase3": "",
+    "keywords3": "who you are.",
+    "description": "From design to hosting, including development, we are here to help you create your website.",
+    "cta1": "Get Started",
+    "cta2": "Discover Offers"
+  },
+  "Services": {
+    "title": "Your",
+    "keywords1": "ready to go",
+    "keywords2": "website"
+  },
+  "HomeCards": {
+    "title1": "Responsive Design",
+    "description1": "Our websites are designed to be fully responsive, ensuring an optimal user experience across all devices, whether on mobile phones, tablets, or computers.",
+    "title2": "SEO Optimized",
+    "description2": "We incorporate advanced natural referencing techniques into every project, thus improving your site's visibility on search engines and attracting qualified traffic.",
+    "title3": "Performance and Speed",
+    "description3": "We optimize your site's performance and loading speed, ensuring smooth navigation that reduces bounce rates and maximizes user engagement.",
+    "title4": "User Experience",
+    "description4": "We design intuitive and engaging interfaces, centered on the user, to improve the satisfaction and loyalty of your visitors.",
+    "title5": "Free Hosting",
+    "description5": "We offer free hosting for a specified period, thus facilitating the launch of your site without additional costs.",
+    "title6": "Post-Delivery Follow-up",
+    "description6": "We provide follow-up after delivery to ensure your site functions properly and make adjustments if necessary, offering you peace of mind."
+  },
+  "Projects": {
+    "title": "Each project is",
+    "keywords1": "unique",
+    "title2": "and",
+    "keywords2": "custom-designed"
+  },
+  "CallToAction": {
+    "title": "Dont wait anymore,",
+    "keywords1": "get started now!",
+    "cta1": "Get Started",
+    "cta2": "Discover Offers"
+  },
+  "Offers": {
+    "sectionTitle": "Our Offers",
+    "title1": "Showcase Website",
+    "shortDescription1": "An ideal solution for personal or business websites, showcasing your activity in an elegant and professional manner.",
+    "title2": "E-commerce Website",
+    "shortDescription2": "A comprehensive and customizable online sales platform, designed to maximize your sales and provide a smooth shopping experience for your customers.",
+    "title3": "Complex Application",
+    "shortDescription3": "Tailored solutions for your specific needs, incorporating advanced features and cutting-edge technology to address your unique challenges.",
+    "select": "Select"
+  },
+  "Specs": {
+    "arg1": "Hosting offered ( 12 months )",
+    "arg2": "Domain name offered ( 12 months )",
+    "arg3": "Responsive design",
+    "arg4": "SEO Optimized",
+    "arg5": "Performance and Speed",
+    "arg6": "Post-Delivery Follow-up",
+    "arg7": "E-commerce",
+    "arg8": "Complex Application"
+  },
+  "Contact": {
+    "title": "Feel free to",
+    "keywords1": "contact us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit",
+    "success": "Thank you for your message!",
+    "error": "An error occurred. Please try again later.",
+    "error-name": "String must contain at least 3 character(s)",
+    "error-email": "Invalid email",
+    "error-message": "String must contain at least 10 character(s)"
+  },
+  "LanguageChanger": {
+    "en": "EN",
+    "fr": "FR"
   }
+}

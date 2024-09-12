@@ -1,36 +1,39 @@
 'use client'
 
-import { useTranslations } from "next-intl";
-import Card from "../UI/Card";
-import { useRouter } from "next/navigation";
+import { useTranslations } from 'next-intl'
+import Card from '../UI/Card'
+import { useRouter } from '@/i18n/routing'
 
 export default function HomeCards() {
-  const t = useTranslations();
-  const cardCount = 6;
-  const router = useRouter();
+  const t = useTranslations()
+  const cardCount = 6
+  const router = useRouter()
 
   return (
     <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
       {[...Array(cardCount)].map((_, index) => (
-        <Card key={`card-${index + 1}`} onClick={() => router.push(`/get-started`)}>
-          <div className="flex flex-col gap-6 group">
-            <div className="bg-main text-white py-4 px-6 rounded max-w-full">
-              <h3 className="text-xl font-bold truncate">
+        <Card
+          key={`card-${index + 1}`}
+          onClick={() => router.push('/get-started')}
+        >
+          <div className="group flex flex-col gap-6">
+            <div className="max-w-full rounded bg-main px-6 py-4 text-white">
+              <h3 className="truncate text-xl font-bold">
                 {t(`HomeCards.title${index + 1}`)}
               </h3>
             </div>
             <div className="flex justify-start">
-              <hr className="h-[2px] bg-main w-[0px] group-hover:w-full group-hover:scale-0 group-hover:transition-all groupe-hover:ease group-hover:duration-500" />  
+              <hr className="groupe-hover:ease h-[2px] w-[0px] bg-main group-hover:w-full group-hover:scale-0 group-hover:transition-all group-hover:duration-500" />
             </div>
-            <div className="text-lg max-w-[650px] text-balance px-8">
+            <div className="max-w-[650px] text-balance px-8 text-lg">
               {t(`HomeCards.description${index + 1}`)}
             </div>
             <div className="flex justify-end">
-              <hr className="h-[2px] bg-main w-[0px] group-hover:w-full group-hover:scale-0 group-hover:transition-all groupe-hover:ease group-hover:duration-500" />  
+              <hr className="groupe-hover:ease h-[2px] w-[0px] bg-main group-hover:w-full group-hover:scale-0 group-hover:transition-all group-hover:duration-500" />
             </div>
           </div>
         </Card>
       ))}
     </div>
-  );
+  )
 }
