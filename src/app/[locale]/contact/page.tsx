@@ -22,13 +22,13 @@ export default function Contact() {
 
   const onSubmit = (data: ContactFormType) => {
     const templateParams = {
-      name: data.name,
+      userName: data.name,
       email: data.email,
       message: data.message,
     }
 
     emailjs
-      .send('service_t80tq3m', 'template_b2bxdyh', templateParams, {
+      .send('service_t80tq3m', 'template_g9actwj', templateParams, {
         publicKey: 'sArzFEUNT8gIWgywT',
       })
       .then(() => {
