@@ -50,6 +50,9 @@
     "cta1": "Get Started",
     "cta2": "Discover Offers"
   },
+  "GetStarted": {
+    "title": "Take a meeting"
+  },
   "Offers": {
     "sectionTitle": "Our Offers",
     "title1": "Showcase Website",

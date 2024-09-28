@@ -50,6 +50,9 @@
     "cta1": "Commencer",
     "cta2": "Découvrir les offres"
   },
+  "GetStarted": {
+    "title": "Prendre un rendez-vous"
+  },
   "Offers": {
     "sectionTitle": "Nos offres",
     "title1": "Site vitrine",
