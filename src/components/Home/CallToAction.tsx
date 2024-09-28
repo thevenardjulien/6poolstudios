@@ -9,7 +9,7 @@ export default function CallToAction() {
   const router = useRouter()
 
   return (
-    <div className="flex flex-col items-center justify-center gap-12 bg-lightBackground px-12 py-20">
+    <div className="flex flex-col items-center justify-center gap-12 bg-lightBackground px-12 py-52">
       <h2 className="text-balance text-center text-5xl font-bold">
         {t('title')}
         <br />

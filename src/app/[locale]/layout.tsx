@@ -39,15 +39,14 @@ export default async function LocaleLayout({
   const messages = await getMessages()
 
   return (
-    <html lang={locale} className="h-full">
+    <html lang={locale}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${Questrial.variable} flex min-h-screen flex-col items-center font-[family-name:var(--font-geist-sans)] antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${Questrial.variable} font-[family-name:var(--font-geist-sans)] antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <main className="flex w-full flex-grow flex-col items-center justify-center">
-            {children}
-          </main>
+          <div className="headerPlaceHolder h-[100px]" />
+          <main>{children}</main>
           <Footer />
           <BackToTop />
         </NextIntlClientProvider>

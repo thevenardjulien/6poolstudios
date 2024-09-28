@@ -41,7 +41,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="row-start-2 flex min-h-[100vh] w-[90%] flex-col items-center justify-center gap-12 px-12">
+    <div className="flex flex-col items-center justify-center gap-12 p-12">
       <h1 className="text-center text-5xl font-bold">
         {t('title')} <span className="text-main">{t('keywords1')}</span>
       </h1>
