@@ -22,13 +22,13 @@ export default function Contact() {
 
   const onSubmit = (data: ContactFormType) => {
     const templateParams = {
-      name: data.name,
+      userName: data.name,
       email: data.email,
       message: data.message,
     }
 
     emailjs
-      .send('service_t80tq3m', 'template_b2bxdyh', templateParams, {
+      .send('service_t80tq3m', 'template_g9actwj', templateParams, {
         publicKey: 'sArzFEUNT8gIWgywT',
       })
       .then(() => {
@@ -41,7 +41,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="row-start-2 flex min-h-[100vh] w-[90%] flex-col items-center justify-center gap-12 px-12">
+    <div className="flex flex-col items-center justify-center gap-12 p-12">
       <h1 className="text-center text-5xl font-bold">
         {t('title')} <span className="text-main">{t('keywords1')}</span>
       </h1>

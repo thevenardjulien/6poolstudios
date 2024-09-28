@@ -7,7 +7,7 @@ import Footer from '@/components/Layout/Footer'
 import './globals.css'
 import BackToTop from '@/components/BackToTop'
 
-export const Questrial = localFont({
+const questrial = localFont({
   src: '../../assets/fonts/Questrial-Regular.ttf',
   variable: '--font-questrial',
   weight: '100 900',
@@ -18,6 +18,7 @@ const geistSans = localFont({
   variable: '--font-geist-sans',
   weight: '100 900',
 })
+
 const geistMono = localFont({
   src: '../../assets/fonts/GeistMonoVF.woff',
   variable: '--font-geist-mono',
@@ -39,15 +40,14 @@ export default async function LocaleLayout({
   const messages = await getMessages()
 
   return (
-    <html lang={locale} className="h-full">
+    <html lang={locale}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${Questrial.variable} flex min-h-screen flex-col items-center font-[family-name:var(--font-geist-sans)] antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${questrial.variable} font-[family-name:var(--font-geist-sans)] antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <main className="flex w-full flex-grow flex-col items-center justify-center">
-            {children}
-          </main>
+          <div className="headerPlaceHolder h-[100px]" />
+          <main>{children}</main>
           <Footer />
           <BackToTop />
         </NextIntlClientProvider>

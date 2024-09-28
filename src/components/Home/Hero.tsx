@@ -11,7 +11,7 @@ export default function Hero() {
   const router = useRouter()
 
   return (
-    <div className="flex min-h-[100vh] w-full flex-col items-center justify-center px-12 lg:flex-row">
+    <div className="flex h-[100vh] translate-y-[-60px] flex-col items-center justify-center px-12 lg:flex-row">
       <div className="z-10 flex flex-col items-start justify-center gap-6 lg:relative lg:left-[30px] lg:max-w-[750px]">
         <h1 className="flex w-full flex-col gap-2 text-5xl font-bold">
           <div className="text-balance">
